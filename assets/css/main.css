@@ -1078,7 +1078,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: pink;
 			color: #1b1f22 !important;
 			font-weight: 600;
 		}
@@ -1674,7 +1674,9 @@ input, select, textarea {
 			display: flex;
 			flex-direction: column;
 			border: 2px solid pink;
-			padding: 8%;
+			width: 50%;
+			padding: 5%;
+			margin: 5%;
 		}
 		.gh-box img {
 			width: 200px;
