@@ -1659,3 +1659,28 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.github-portfolio {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		.ghrow {
+			display: flex;
+			justify-content: space-around;
+			margin: 10px;
+		}
+		.gh-box {
+			display: flex;
+			flex-direction: column;
+			border: 2px solid pink;
+			padding: 8%;
+		}
+		.gh-box img {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+		}
+		.gh-box a {
+			border-bottom: none;
+		}
